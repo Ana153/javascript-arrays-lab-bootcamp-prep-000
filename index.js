@@ -39,7 +39,7 @@ describe('removeLastKitten()', function() {
 
 function removeLastKitten(){
   var newKittens = kittens;
-  return newKittens.pop();
+  return newKittens;
 }
 
 function removeFirstKitten(){
